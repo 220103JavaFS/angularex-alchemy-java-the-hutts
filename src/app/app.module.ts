@@ -9,6 +9,8 @@ import { MikeComponent } from './mike/mike.component';
 import { EthanComponent } from './ethan/ethan.component';
 import { JeremiahComponent } from './jeremiah/jeremiah.component';
 import { JeongComponent } from './jeong/jeong.component';
+import { FormsModule } from '@angular/forms';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { JeongComponent } from './jeong/jeong.component';
     MikeComponent,
     EthanComponent,
     JeremiahComponent,
-    JeongComponent
+    JeongComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
