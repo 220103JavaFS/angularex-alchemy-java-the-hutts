@@ -4,8 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { IntroduceComponent } from './introduce/introduce.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { JaehyunComponent } from './jaehyun/jaehyun.component';
 import { MikeComponent } from './mike/mike.component';
 import { EthanComponent } from './ethan/ethan.component';
@@ -15,8 +13,6 @@ import { JeongComponent } from './jeong/jeong.component';
 @NgModule({
   declarations: [
     AppComponent,
-    IntroduceComponent,
-    NavBarComponent,
     JaehyunComponent,
     MikeComponent,
     EthanComponent,
